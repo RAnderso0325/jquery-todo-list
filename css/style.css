@@ -1,4 +1,95 @@
-div{
-	display: inline-block;
-	width: auto;
+body{
+	text-align: center;
+	background-color: beige;
 }
+h1{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 40px;
+	border: 10px dotted orange;
+	padding: 10px;
+}
+h2{
+	font-family: 'Special Elite', cursive;
+	font-size: 35px;
+	background-color: lightblue;
+	border: 10px dotted beige;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.container{
+	display: inline-block;
+}
+.big-list{
+	display: inline-block;
+	border: 10px dotted grey;
+	padding: 35px 35px 45px 35px;
+	margin: 50px 25px 25px 25px;
+	color: #444;
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  -ms-background-size: 100% 20px;
+  -o-background-size: 100% 20px;
+  background-size: 100% 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  width: 816px;
+  height: 1056px;
+}
+#list1{
+	height: 500px;
+	width: 250px;
+
+}
+#list2{
+	height: 500px;
+	width: 250px;
+	position: relative;
+}
+li{
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	text-align: left;
+	list-style-type: circle;
+	list-style-position: ;
+}
+#create-item{
+	padding: 10px;
+	border-radius: 10px;
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	background-color: lightblue;
+	font-weight: bold;
+	border: 2px inset lightgrey;
+}
+#GET-NEW-ITEM{
+	padding: 10px;
+	border-radius: 10px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	border: 2px inset lightgrey;
+}
+.buttonRemove{
+	padding: 8px;
+	border-radius: 10px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 15px;
+}
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Sedgwick Ave', cursive;*/
