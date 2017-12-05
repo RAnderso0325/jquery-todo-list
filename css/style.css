@@ -21,41 +21,42 @@ h2{
 }
 .big-list{
 	display: inline-block;
+	vertical-align: top;
 	border: 10px dotted grey;
 	padding: 35px 35px 45px 35px;
 	margin: 50px 25px 25px 25px;
 	color: #444;
-  line-height: 20px;
-  border: 1px solid #d2d2d2;
-  background: #fff;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
-  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
-  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
-  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
-  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
-  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
-  -webkit-background-size: 100% 20px;
-  -moz-background-size: 100% 20px;
-  -ms-background-size: 100% 20px;
-  -o-background-size: 100% 20px;
-  background-size: 100% 20px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  width: 816px;
-  height: 1056px;
+  	line-height: 20px;
+  	border: 1px solid #d2d2d2;
+  	background: #fff;
+  	background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  	background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  	background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  	background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  	background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  	background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  	-webkit-background-size: 100% 20px;
+  	-moz-background-size: 100% 20px;
+  	-ms-background-size: 100% 20px;
+  	-o-background-size: 100% 20px;
+  	background-size: 100% 20px;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+  	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  	box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  	width: 816px;
+  	height: 1056px;
 }
 #list1{
 	height: 500px;
-	width: 250px;
-
+	width: 400px;
+	line-height: 40px;
 }
 #list2{
 	height: 500px;
-	width: 250px;
+	width: 400px;
 	position: relative;
 }
 li{
@@ -64,6 +65,9 @@ li{
 	text-align: left;
 	list-style-type: circle;
 	list-style-position: ;
+}
+#title2{
+	line-height: 40px;
 }
 #create-item{
 	padding: 10px;
@@ -82,14 +86,11 @@ li{
 	border: 2px inset lightgrey;
 }
 .buttonRemove{
-	padding: 8px;
+	padding-top: 2px;
 	border-radius: 10px;
-	font-family: 'Rock Salt', cursive;
-	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 12px;
+	position: relative;
+	top: -20px;
+	left: 145px;
 }
-/*font-family: 'Indie Flower', cursive;
-font-family: 'Special Elite', cursive;
-font-family: 'Rock Salt', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Love Ya Like A Sister', cursive;
-font-family: 'Sedgwick Ave', cursive;*/

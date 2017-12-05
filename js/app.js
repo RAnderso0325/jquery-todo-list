@@ -14,6 +14,10 @@ $('#create-item').click(function(){
 		text: $('#GET-NEW-ITEM').val()
 	}));
 	$('#GET-NEW-ITEM').val("");
+	$(function(){
+		$('ul').sortable();
+		$('ul').disableSelection();
+	})
 });
 
 $('.list').on('click', 'li', function(e){
